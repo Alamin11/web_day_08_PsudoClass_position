@@ -1,4 +1,48 @@
+/* hover pseudo class style */
 h1:hover {
     color: coral;
     font-size: 40px;
+}
+
+.box {
+    background-color: yellow;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    font-size: 40px;
+    text-align: center;
+}
+
+/* active pseudo class style */
+.box:active {
+    background-color: orange;
+}
+
+/* focus pseudo class */
+form {
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 2rem;
+}
+
+label {
+    width: 30%;
+}
+
+input {
+    background-color: default;
+    float: right;
+}
+
+/* focus pseudo class style */
+input:focus {
+    background-color: grey;
+    height: 20px;
+}
+
+/* visited pseudo class style */
+a:visited {
+    color: red;
 }
