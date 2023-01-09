@@ -46,3 +46,27 @@ input:focus {
 a:visited {
     color: red;
 }
+
+/* Pseudo element styles */
+/* first line pseudo element */
+.first-line-pseudo-element::first-line {
+    font-size: 18px;
+    color: crimson;
+}
+
+/* first letter pseudo element */
+.first-line-pseudo-element::first-letter {
+    color: green;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+/* after pseudo element */
+.after-pseudo-element::after {
+    content: "🔥";
+}
+
+/* before pseudo element */
+.before-pseudo-element::before {
+    content: "😈";
+}
