@@ -70,3 +70,21 @@ a:visited {
 .before-pseudo-element::before {
     content: "😈";
 }
+
+/* CSS child properties */
+li:first-child {
+    color: chocolate;
+    font-size: 24px;
+}
+
+li:last-child {
+    color: blue;
+}
+
+li:nth-child(2n) {
+    background-color: aquamarine;
+}
+
+li:nth-child(2n+1) {
+    background-color: darkcyan;
+}
